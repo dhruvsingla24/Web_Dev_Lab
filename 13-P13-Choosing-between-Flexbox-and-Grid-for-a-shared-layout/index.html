@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhruv Singla - Shared Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#">Dhruv Singla</a>
+    <nav class="site-nav">
+      <a href="#">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">Skills</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <aside class="sidebar">
+    <h2>Lab Modules</h2>
+    <ul>
+      <li>Terminal &amp; Git</li>
+      <li>Semantic HTML5</li>
+      <li>CSS Positioning</li>
+      <li>Flexbox &amp; Grid</li>
+    </ul>
+  </aside>
+
+  <main class="content">
+    <h1>Choosing Between Flexbox and Grid</h1>
+    <p>This shared layout uses CSS Grid to organize the header, sidebar, main area, and footer, while Flexbox aligns navigation links and cards cleanly.</p>
+
+    <div class="cards">
+      <article class="card">
+        <h3>Flexbox (1D)</h3>
+        <p>Best for aligning items along a single row or column, like navbars and button groups.</p>
+      </article>
+      <article class="card">
+        <h3>CSS Grid (2D)</h3>
+        <p>Best for structuring full-page layouts with rows and columns working together.</p>
+      </article>
+      <article class="card">
+        <h3>Combined Approach</h3>
+        <p>Use Grid for the outer page skeleton and Flexbox inside individual components.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Dhruv Singla &mdash; Built with Flexbox and Grid.</p>
+  </footer>
+</body>
+</html>
