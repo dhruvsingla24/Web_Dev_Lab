@@ -13,7 +13,6 @@ body {
   flex-direction: column;
 }
 
-/* Flexbox Header */
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -44,7 +43,6 @@ body {
   text-decoration: underline;
 }
 
-/* Main Content */
 main {
   flex: 1;
   max-width: 800px;
@@ -62,7 +60,6 @@ main p {
   color: #475569;
 }
 
-/* Multi-Column Flexbox Footer */
 .site-footer {
   display: flex;
   flex-wrap: wrap;
