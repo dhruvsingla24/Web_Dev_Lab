@@ -33,7 +33,6 @@ header p {
   letter-spacing: 1px;
 }
 
-/* CSS Grid Newspaper Columns */
 .newspaper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -61,7 +60,6 @@ article p {
   color: #374151;
 }
 
-/* Responsive Stacking on Smaller Screens */
 @media (max-width: 700px) {
   .newspaper {
     grid-template-columns: 1fr;
