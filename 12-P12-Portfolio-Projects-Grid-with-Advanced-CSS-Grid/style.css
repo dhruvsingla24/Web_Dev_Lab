@@ -34,7 +34,6 @@ body {
   padding: 0 20px;
 }
 
-/* Advanced CSS Grid */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -76,13 +75,11 @@ body {
   color: #475569;
 }
 
-/* Featured Card Spanning 2 Columns */
 .featured {
   background-color: #eff6ff;
   border-color: #93c5fd;
 }
 
-/* Tall Card Spanning 2 Rows */
 .tall {
   background-color: #f8fafc;
 }
